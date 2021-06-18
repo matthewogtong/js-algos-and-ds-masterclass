@@ -1,3 +1,3 @@
 # js-algos-ds-mc
 
-Repo consisitng of practicing with JavaScript algorithms and datastructures
+Practicing with JavaScript Algorithms and Data Structures 
