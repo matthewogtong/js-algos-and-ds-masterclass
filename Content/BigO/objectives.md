@@ -10,7 +10,7 @@
 * Big O Notations is a way to formalize fuzzy counting
 * It allows us to talk formally about how the runtime of an algorithm grows as the inputs grow
 * The time or space complexity (as measured by Big O) depends only on the algorithm, not the hardware used to run the algorithm
-* We say that an algorithm is **O(f(n))** if the number of simple operatiosn the computer has to do is eventually less than a constant times **f(n)**, as **n** increases
+* We say that an algorithm is **O(f(n))** if the number of simple operations the computer has to do is eventually less than a constant times **f(n)**, as **n** increases
     * f(n) could be linear (f(n) = n)
     * f(n) could be quadratic (f(n) - n<sup>2</sup>))
     * f(n) could be constant (f(n) = 1)
