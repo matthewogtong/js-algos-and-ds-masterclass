@@ -6,8 +6,10 @@
 * When code slows down or crashes, identifying parts of the code that are inefficient can help us find pain points in our applications
 
 #### Describe what Big O Notation is 
+* To analyze the performance of an algorithm, we use Big O Notation
 * Big O Notations is a way to formalize fuzzy counting
 * It allows us to talk formally about how the runtime of an algorithm grows as the inputs grow
+* The time or space complexity (as measured by Big O) depends only on the algorithm, not the hardware used to run the algorithm
 * We say that an algorithm is **O(f(n))** if the number of simple operatiosn the computer has to do is eventually less than a constant times **f(n)**, as **n** increases
     * f(n) could be linear (f(n) = n)
     * f(n) could be quadratic (f(n) - n<sup>2</sup>))
@@ -36,5 +38,3 @@
     * Most primitives (booleans, numbers, undefined, null) are constant space
     * Strings require O(n) space (where n is the string length)
     * Reference types are generally O(n), where n is the length (for arrays) or the number of keys (for objects)
-
-#### Evaluate the time complexity and space complexity of different alogorithms using Big O Notation
