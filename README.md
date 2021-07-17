@@ -1,3 +1,3 @@
-# js-algos-ds-mc
+# js-algos-and-ds-masterclass
 
 JavaScript Algorithms and Data Structures Practice
