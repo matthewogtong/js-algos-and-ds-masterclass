@@ -3,27 +3,27 @@
 
 function validAnagram(str1, str2) {
     if (str1.length != str2.length) {
-        return false
+        return false;
     }
 
-    let fq1 = {}
-    let fq2 = {}
+    let fq1 = {};
+    let fq2 = {};
 
     for (let val of str1) {
-        fq1[val] = (fq1[val] || 0) + 1
+        fq1[val] = (fq1[val] || 0) + 1;
     }
 
     for (let val of str2) {
-        fq2[val] = (fq2[val] || 0) + 1
+        fq2[val] = (fq2[val] || 0) + 1;
     }
 
     for (let key in fq1) {
         if (!(fq1[key] in fq2) && !(fq1[key] === fq2[key])) {
-            return false
+            return false;
         }
     }
 
-    return true
+    return true;
 }
 
-console.log(validAnagram("hello", "heoll")) 
+console.log(validAnagram("hello", "heoll"))
