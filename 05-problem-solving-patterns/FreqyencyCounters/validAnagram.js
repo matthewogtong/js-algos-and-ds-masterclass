@@ -27,3 +27,4 @@ function validAnagram(str1, str2) {
 }
 
 console.log(validAnagram("hello", "heoll"))
+
