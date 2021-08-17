@@ -16,3 +16,10 @@
 * Object traversal
 * We will see it with more complex data structures
 * It's sometimes a cleaner alternative to iteration
+
+#### IN almost all program languages, there is a built in data structure that manages what happens when functions are invoked
+
+### The call stack
+* It's a stack data structure
+* Any time a function is invoked it is place (pushed) on the top of the call stack
+* When JavaScript sees the return keyword or when the function ends, the compiler will remove (pop)
