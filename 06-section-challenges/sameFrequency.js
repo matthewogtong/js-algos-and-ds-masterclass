@@ -16,3 +16,32 @@ sameFrequency(22,222) // false
 
 */
 
+function sameFrequency(num1, num2) {
+    const first = num1.toString()
+    const second = num2.toString()
+
+    if(first.length !== second.length) {
+        return false
+    }
+
+    let fq1 = {}
+    let fq2 = {}
+
+    for(let num of first) {
+        fq1[num] = (fq1[num] || 0) + 1
+    }
+
+    for(let num of second) {
+        fq2[num] = (fq2[num] || 0) + 1
+    }
+
+    for(const key in fq1) {
+        if(!(key in fq2) && fq1[key] !== fq2[key]) {
+            return false
+        }
+    }
+
+    return true
+}
+
+console.log(sameFrequency(1823,2812))
