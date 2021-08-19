@@ -37,3 +37,8 @@ function areThereDuplicates() {
 }
 
 console.log(areThereDuplicates(1,2,3,3))
+
+// One Liner
+function areThereDuplicates() {
+    return new Set(arguments).size !== arguments.length
+}
