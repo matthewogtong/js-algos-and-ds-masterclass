@@ -41,9 +41,9 @@ maxSubarraySum([1,2,5,2,8,1,5],2) // 10
      tempSum = maxSum
      for(let i = num; i < arr.length; i++) {
          tempSum = tempSum - arr[i - num] + arr[i]
-         maxSum = Max.max(maxSum, tempSum)
+         maxSum = Math.max(maxSum, tempSum)
      }
      return maxSum
  }
 
- console.log(maxSubarraySum([1,2,5,2,8,1,5],2))
+ console.log(maxSubarraySum([2,6,9,2,1,8,5,6,3],3))
