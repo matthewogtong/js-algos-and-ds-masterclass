@@ -40,7 +40,7 @@ function validAnagram(str1, str2) {
         fq[val] = (fq[val] || 0) + 1
     }
 
-    for( let val of str2) {
+    for(let val of str2) {
         fq[val] = (fq[val] || 0) + 1
     }
 
