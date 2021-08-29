@@ -26,3 +26,7 @@
 
 ### Base Case
 * The condition when the recursion ends
+
+### Misc Notes 
+* JavaScript uses the call stack tool to manage function invocations
+* A base case is a situation when the recursion ends
