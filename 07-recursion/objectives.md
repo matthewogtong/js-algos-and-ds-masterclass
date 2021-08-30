@@ -17,7 +17,7 @@
 * We will see it with more complex data structures
 * It's sometimes a cleaner alternative to iteration
 
-#### IN almost all program languages, there is a built in data structure that manages what happens when functions are invoked
+#### In almost all program languages, there is a built in data structure that manages what happens when functions are invoked
 
 ### The call stack
 * It's a stack data structure
