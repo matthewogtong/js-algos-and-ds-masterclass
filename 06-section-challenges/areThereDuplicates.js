@@ -21,22 +21,22 @@ Space - O(n)
 // Frequency Counter Solution
 
 function areThereDuplicates() {
-    let collection = {}
+  let collection = {};
 
-    for(let val of arguments) {
-        collection[val] = (collection[val] || 0) + 1
+  for (let val of arguments) {
+    collection[val] = (collection[val] || 0) + 1;
+  }
+
+  for (key in collection) {
+    if (collection[key] > 1) {
+      return true;
     }
+  }
 
-    for(key in collection) {
-        if(collection[key] > 1) {
-            return true
-        }
-    }
-
-    return false
+  return false;
 }
 
-console.log(areThereDuplicates(1,2,3,3))
+console.log(areThereDuplicates(1, 2, 3, 3));
 
 // Multiple Pointers Solution
 function areThereDuplicates(...args) {
@@ -56,5 +56,5 @@ function areThereDuplicates(...args) {
 
 // One Liner
 function areThereDuplicates() {
-    return new Set(arguments).size !== arguments.length
+  return new Set(arguments).size !== arguments.length;
 }
