@@ -28,7 +28,7 @@ maxSubarraySum([1,2,5,2,8,1,5],2) // 10
 
 //  console.log(maxSubarraySum([1,2,5,2,8,1,5],2))
 
- // refactored solution implementing Sliding Window approach
+ // refactored implementing Sliding Window approach
 
  function maxSubarraySum(arr, num) {
      let maxSum = 0
