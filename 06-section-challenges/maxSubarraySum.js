@@ -6,7 +6,7 @@
 maxSubarraySum([1,2,5,2,8,1,5],2) // 10
 */
 
-// naive solution
+// initial naive solution
 
 //  function maxSubarraySum(arr, num) {
 //      if(num > arr.length) {
