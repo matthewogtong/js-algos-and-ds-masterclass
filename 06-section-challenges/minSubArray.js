@@ -22,7 +22,7 @@ function minSubArrayLen(nums, sum) {
               end++;
       }
       // if current window adds up to at least the sum given then
-          // we can shrink the window 
+          // we can shrink window 
       else if(total >= sum){
         minLen = Math.min(minLen, end-start);
               total -= nums[start];
