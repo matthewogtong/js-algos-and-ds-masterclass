@@ -30,3 +30,11 @@
 ### Misc Notes 
 * JavaScript uses the call stack tool to manage function invocations
 * A base case is a situation when the recursion ends
+
+### Where things go wrong
+* No base case
+* Forgetting to return or returning the wrong thing
+* Stack overflow! (recursion that does not stop and call stack is infinitely stacked)
+
+### Helper Method Recursion
+* 
