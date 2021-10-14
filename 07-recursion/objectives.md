@@ -37,4 +37,4 @@
 * Stack overflow! (recursion that does not stop and call stack is infinitely stacked)
 
 ### Helper Method Recursion
-* 
+* A pattern where you have an outer function that is not recursive which calls a recursive inner function
