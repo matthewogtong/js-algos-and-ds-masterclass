@@ -17,3 +17,8 @@ function isSubsequence(str1, str2) {
   }
   return false;
 }
+
+let first = ""
+let second = "hello"
+
+console.log(isSubsequence(first, second))
