@@ -38,3 +38,6 @@
 
 ### Helper Method Recursion
 * A pattern where you have an outer function that is not recursive which calls a recursive inner function
+
+### Pure Recursion
+* Where the function itself is self contained and it's recursive. No external data structure and no nested functions involved.

@@ -1,3 +1,5 @@
+// Helper method recursion
+
 function collectOddValues(arr) {
     let result = []
 
@@ -17,3 +19,6 @@ function collectOddValues(arr) {
 
     return result;
 }
+
+// Pure recursion
+
